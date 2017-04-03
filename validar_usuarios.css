@@ -1,0 +1,16 @@
+form .error {
+  color:red;
+ }
+
+
+input:required,select:required {
+	border: 1px solid blue;
+}
+input:valid,select:valid {
+	border: 1px solid green;
+}
+input:invalid,select:invalid {
+	border: 1px solid red;
+}
+
+
